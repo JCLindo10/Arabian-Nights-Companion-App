@@ -13,12 +13,14 @@ def main():
     while(True):
 
         #TODO: Make this take in the other and the modifier, splitting on a space
-        input_other = input("What have you encountered?")
-        input_modifier = input("what is its modifier?")
+        input_other = input("What have you encountered?\n")
+        input_modifier = input("what is its modifier?\n")
 
-        other = other(input_other, input_modifier)
+        encountered_other = other.Other(input_other, input_modifier)
 
-        
+        print(encountered_other)
+
+
 
 
 if __name__ == "__main__":

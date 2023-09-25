@@ -16,7 +16,7 @@ def main():
         #TODO: Make this take in the other and the modifier, splitting on a space
         mod_and_other = input("What have you encountered?\n").split()
 
-        if len(mod_and_other) > 2:
+        if len(mod_and_other) != 2:
             print("Invalid input")
             continue
 

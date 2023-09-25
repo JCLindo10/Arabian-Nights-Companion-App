@@ -13,7 +13,7 @@ class Encounter:
         self.text = text
         self.other = other
 
-    def modify_text(raw_text: String):
+    def modify_text(raw_text):
         pass
 
     def display_text():

@@ -13,9 +13,9 @@ class Encounter:
         self.text = text
         self.other = other
 
-    def modify_text(raw_text):
+    def modify_text(self, raw_text):
         pass
 
-    def display_text():
+    def display_text(self,):
         pass
 

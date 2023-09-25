@@ -7,8 +7,19 @@
 
 """
 
+import other
+
 def main():
-    pass
+    while(True):
+
+        #TODO: Make this take in the other and the modifier, splitting on a space
+        input_other = input("What have you encountered?")
+        input_modifier = input("what is its modifier?")
+
+        other = other(input_other, input_modifier)
+
+        
+
 
 if __name__ == "__main__":
     main()

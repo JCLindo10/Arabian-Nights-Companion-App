@@ -14,7 +14,7 @@ class Encounter:
         self.other = other
 
     def modify_text(self, raw_text):
-        pass
+        return raw_text.replace('other', self.other)
 
     def display_text(self):
         print("placeholder text encounter")

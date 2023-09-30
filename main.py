@@ -9,6 +9,7 @@
 
 import other
 import encounter
+import json
 
 def main():
     while(True):
@@ -30,6 +31,9 @@ def main():
         confrontation = encounter.Encounter('test', encountered_other)
 
         confrontation.display_text()
+
+        # y = json.loads("others.json")
+        # print(y.prince["morning"])
 
 
 if __name__ == "__main__":
